@@ -6,7 +6,7 @@ export default class App extends Component{
 
      render(){
         return (<>
-                 <Palette {...seedPalette[5]} />
+                 <Palette {...seedPalette[2]} />
                </>
             )
      }
