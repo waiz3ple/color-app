@@ -7,7 +7,7 @@ export default class App extends Component{
      render(){
         console.log(generatePalette(seedPalette[4]))
         return (<>
-                 <Palette {...seedPalette[2]} />
+                 <Palette palette={generatePalette(seedPalette[4])} />
                </>
             )
      }
