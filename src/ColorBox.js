@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+ import React,{Component} from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import './ColorBox.scss'
 export default class ColorBox extends Component{
